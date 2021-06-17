@@ -3,6 +3,39 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
+let likeBtn = Array.from(document.getElementsByClassName('like-glyph'))
+//console.log(likeBtn === array)
+
+likeBtn.forEach(like => {
+  like.addEventListener('click', (e) => {
+    // Everything below this line is broken!
+    console.log(e.target)
+
+  //   then((valueHeart) => {
+     
+  //   }) 
+    
+  //   try {
+  //     mimicServerCall()
+  //   } catch (error) {
+  //     console.log(error)
+  //   }
+   })
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
